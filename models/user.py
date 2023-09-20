@@ -7,6 +7,7 @@ from sqlalchemy.orm import relationship
 import models
 from models.base_model import BaseModel, Base
 
+
 class User(BaseModel, Base):
     """User Class"""
     if models.storage_t == 'db':
