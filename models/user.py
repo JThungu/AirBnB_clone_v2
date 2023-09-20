@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """Contains user class"""
 from os import getenv
+import sqlalchemy
 from sqlalchemy import Column, String
 from sqlalchemy.orm import relationship
+import models
 from models.base_model import BaseModel, Base
 
 
