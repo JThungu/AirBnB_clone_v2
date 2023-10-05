@@ -7,7 +7,7 @@ from fabric.api import env, local, put, run, runs_once
 import os
 
 
-env.hosts = ['54.162.0.15', '54.237.104.124']
+env.hosts = ['54.234.94.20', '100.24.242.71']
 
 
 @runs_once
