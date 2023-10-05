@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-
-import os
 from fabric.api import env, put, run
+import os
 
 # Define the remote hosts
 env.hosts = ['54.234.94.20', '100.24.242.71']
